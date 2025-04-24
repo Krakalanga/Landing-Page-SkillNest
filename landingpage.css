@@ -1,0 +1,110 @@
+:root {
+    --dark-blue: rgb(26, 55, 94);
+    --medium-blue: rgb(45, 86, 140);
+    --light-blue: rgb(54, 171, 255);
+    --light-gray: rgb(220, 220, 220);
+    --white: white;
+  }
+  
+  
+  body {
+    background-color: var(--light-gray);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+  
+  
+  .container {
+    background-color: var(--white);
+    width: 900px;
+    margin: 150px auto 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  header {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 20px 0 25px;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  header h1 {
+    font-size: 45px;
+    font-weight: 100;
+    margin: 0;
+  }
+  
+  header p {
+    margin: 15px 0 0;
+  }
+  
+ 
+  nav {
+    background-color: var(--medium-blue);
+    padding: 15px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: var(--white);
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  nav a:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .segundocontainer {
+    padding: 0 25px;
+  }
+  
+  #header2 {
+    background-color: var(--medium-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 25px;
+    margin: 50px 25px 25px;
+    border-radius: 10px;
+  }
+  
+  #header2 h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+  
+ 
+  #elementos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 25px 35px;
+    flex-wrap: wrap;
+  }
+  
+  #elementos div {
+    background-color: var(--light-blue);
+    color: var(--white);
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  #elementos div:hover {
+    transform: translateY(-5px);
+  }
+  
+  #elementos h1 {
+    font-size: 25px;
+    margin-top: 0;
+  }
